@@ -1,0 +1,9 @@
+"""
+This file defines denoc as a module.
+"""
+
+__package_name__ = "denoc"
+__version__ = "0.1.0"
+__authors__ = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
+__author_email__ = "eliaz.bobadilladev@gmail.com"
+__url__ = "https://github.com/UltiRequiem/denoc"
