@@ -1,7 +1,6 @@
 # Denoc
 
 ![CodeQL](https://github.com/UltiRequiem/denoc/workflows/CodeQL/badge.svg)
-![PyTest](https://github.com/UltiRequiem/denoc/workflows/PyTest/badge.svg)
 ![Pylint](https://github.com/UltiRequiem/denoc/workflows/Pylint/badge.svg)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
 [![PyPi Version](https://img.shields.io/pypi/v/denoc)](https://pypi.org/project/denoc)

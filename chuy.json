@@ -1,0 +1,5 @@
+{
+  "format": "poetry run black .",
+  "lint": "poetry run pylint denoc",
+  "package": "poetry build && poetry publish"
+}
