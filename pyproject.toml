@@ -1,14 +1,26 @@
 [tool.poetry]
 name = "denoc"
-version = "0.1.0"
+version = "0.2.0"
 description = "Utilities for compile JavaScript with Deno"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/UltiRequiem/denoc"
+repository = "https://github.com/UltiRequiem/denoc"
+keywords = ["commands", "typescript", "deno","javascript"]
+include = ["LICENSE"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
+colores = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
+black = "^21.7b0"
+pytest = "^6.2.4"
+pylint = "^2.10.2"
+
+[tool.poetry.scripts]
+denoc = 'denoc:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

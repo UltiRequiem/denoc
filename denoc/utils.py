@@ -5,6 +5,8 @@ import pathlib
 import shutil
 import subprocess
 
+from colores import colorized_print, CYAN
+
 SUPPORTED_PLATFORMS = [
     "x86_64-unknown-linux-gnu",
     "aarch64-apple-darwin",
@@ -51,9 +53,8 @@ def is_installed(program: str) -> bool:
 
 
 def compress_binaries(directory: str, format_file: str) -> None:
-    print("Compressing binaries...")
+    colorized_print("Compressing binaries...", CYAN)
     shutil.make_archive(directory, format_file, directory)
-    print("Done!")
 
 
 def compile_all_platforms(file: str, directory: str) -> None:
@@ -74,5 +75,5 @@ def compile_all_platforms(file: str, directory: str) -> None:
 
         successful_message = f"{file} compiled successfully for {platform}!"
         error_message = f"There was an error while compiling {file} for {platform}."
-        
-        print(successful_message if not error else error_message)
+
+        colorized_print(successful_message if not error else error_message)
