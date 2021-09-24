@@ -15,7 +15,7 @@ SUPPORTED_PLATFORMS = [
 ]
 
 
-def parse_arguments() -> tuple[str, str, bool]:
+def parse_arguments():
     parser = argparse.ArgumentParser(
         "Compile Javascript or TypeScript file to all platforms with Deno."
     )
@@ -45,10 +45,10 @@ def create_dir(directory_to_create: str) -> None:
 
 def is_installed(program: str) -> bool:
     return (
-        subprocess.call(
-            ["which", program], stdout=subprocess.PIPE, stderr=subprocess.PIPE
-        )
-        == 0
+            subprocess.call(
+                ["which", program], stdout=subprocess.PIPE, stderr=subprocess.PIPE
+            )
+            == 0
     )
 
 

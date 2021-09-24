@@ -42,7 +42,7 @@ Optional flags:
 denoc --outputDir deno_dir_output --compress True file.ts
 ```
 
-- `outputDir`: The directory where the binaries will be, by default the directory is *deno_build*.
+- `outputDir`: The directory where the binaries will be, by default the directory is *deno_build*
 
 - `compress`: Compress the binaries directory
 
