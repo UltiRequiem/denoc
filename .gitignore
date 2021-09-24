@@ -2,3 +2,4 @@ deno_builds/
 .idea/
 dist/
 **/__pycache__/**
+deno_builds.zip

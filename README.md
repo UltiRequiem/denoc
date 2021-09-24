@@ -7,3 +7,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/denoc?style=flat-square&label=Repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/denoc?color=blue&label=Total%20Lines)
+
+### License
+
+[This project](https://pypi.org/project/denoc) is licensed under the [MIT License](./LICENSE.md).
