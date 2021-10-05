@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "denoc"
-version = "1.1.0"
+version = "1.1.1"
 description = "Utilities for compile JavaScript with Deno"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
