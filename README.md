@@ -10,8 +10,6 @@
 
 Compile Deno executables and compress them for all platforms easily.
 
-This is not working at this moment, for more info check [denoland/deno #12330](https://github.com/denoland/deno/issues/12330).
-
 ## Install
 
 You can install [denoc](https://pypi.org/project/denoc) from PyPI like any other package:
