@@ -88,6 +88,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
+> Example Repository 👉
+> [ultirequiem/deno-clear](https://github.com/UltiRequiem/deno-clear/releases/tag/v1.3.0)
+
 ## Authors
 
 [Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
