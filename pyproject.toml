@@ -4,11 +4,11 @@ version = "1.1.1"
 description = "Utilities for compile JavaScript with Deno"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
-readme = "README.md"
+readme = "readme.md"
 homepage = "https://github.com/UltiRequiem/denoc"
 repository = "https://github.com/UltiRequiem/denoc"
 keywords = ["commands", "typescript", "deno","javascript"]
-include = ["LICENSE"]
+include = ["license.md"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
